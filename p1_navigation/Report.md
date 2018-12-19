@@ -30,6 +30,20 @@ The plot below shows that, after 546 episodes, the agent is able to receive an a
 
 ## Ideas for Future Work
 
-Ideas for improving the agent's performance are as follows:
-- Attempt a double DQN, dueling DQN, and prioritized experience replay.
-- Attempt a Rainbow algorithm to see how fast it would solve the task 
+Since the introduction of Deep Q-Learning, new ideas for improving the agent's performance has emerged:
+
+- [Double DQN](https://arxiv.org/abs/1509.06461)
+- [Dueling DQN](https://arxiv.org/abs/1511.06581)
+- [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952)
+
+DQN has a tendency to overestimate both the value and the action-value (Q) functions, this is known as Maximization Bias, this is because there is no way to evaluate if the action with the max value is actually the best action.
+
+Double Deep Q Network propose to address Maximization Bias with the use of two Deep Q Networks.
+
+- One DQN is responsible for the selection of the next action (the one with the maximum value) as always.
+- Another DQN is the Target network is responsible for the evaluation of that action.
+
+By decoupling the action selection from the target Q-value generation, we are able to substantially reduce the overestimation, and train faster and more reliably. For a more detailed explanation on how Double DQN works, refer to previous mentioned paper.
+
+Implementing a Double DQN can be an interesting next step to improve the existing agent.
+
