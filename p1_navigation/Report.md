@@ -32,6 +32,4 @@ The plot below shows that, after 546 episodes, the agent is able to receive an a
 
 Ideas for improving the agent's performance are as follows:
 - Attempt a double DQN, dueling DQN, and prioritized experience replay.
-- Solve the environment in fewer than 200 episodes.
-- See how large the rewards can get before the environment is solved (do not stop at 13).
-- Improve the evaluation metric by increasing the window size in which to measure the agent's performance (such as the average score over the last 300 consecutive episodes instead of 100).
+- Attempt a Rainbow algorithm to see how fast it would solve the task 
