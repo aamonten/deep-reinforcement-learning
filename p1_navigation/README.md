@@ -41,7 +41,7 @@ To run this project you will need Python 3.6. By using [Conda](https://anaconda.
 2. Clone this repository and go to `p1_navigation/` folder.  If you haven't already, [install pip](https://anaconda.org/anaconda/pip), and finally 
 install all project dependencies.
 ```bash
-git clone https://github.com/amontene/deep-reinforcement-learning.git
+git clone https://github.com/aamonten/deep-reinforcement-learning.git
 cd p1_navigation
 pip install -r requirements.txt
 ```
