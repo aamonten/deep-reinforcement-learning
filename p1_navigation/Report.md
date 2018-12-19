@@ -47,3 +47,7 @@ By decoupling the action selection from the target Q-value generation, we are ab
 
 Implementing a Double DQN can be an interesting next step to improve the existing agent.
 
+References:
+- [Improvements in Deep Q Learning: Dueling Double DQN, Prioritized Experience Replay, and fixed Q-targets](https://medium.freecodecamp.org/improvements-in-deep-q-learning-dueling-double-dqn-prioritized-experience-replay-and-fixed-58b130cc5682)
+- [Taking Deep Q Networks a step further](https://sergioskar.github.io/Taking_Deep_Q_Networks_a_step_further/)
+
