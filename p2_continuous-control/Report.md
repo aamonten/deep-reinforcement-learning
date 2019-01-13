@@ -13,13 +13,13 @@ DDPG has been implemented in the files, based on the [solution](https://github.c
 
 Hyperparameters can be adjusted, by default the following has been used:
 
-BUFFER_SIZE = int(1e6)  # replay buffer size
-BATCH_SIZE = 64         # minibatch size
-GAMMA = 0.99            # discount factor
-TAU = 1e-3              # for soft update of target parameters
-LR_ACTOR = 1e-4         # learning rate of the actor 
-LR_CRITIC = 3e-4        # learning rate of the critic
-WEIGHT_DECAY = 0.0001   # L2 weight decay
+    BUFFER_SIZE = int(1e6)  # replay buffer size
+    BATCH_SIZE = 64         # minibatch size
+    GAMMA = 0.99            # discount factor
+    TAU = 1e-3              # for soft update of target parameters
+    LR_ACTOR = 1e-4         # learning rate of the actor 
+    LR_CRITIC = 3e-4        # learning rate of the critic
+    WEIGHT_DECAY = 0.0001   # L2 weight decay
 
 The architectures are fully connected neural networks with following dimensions:
 
@@ -46,5 +46,5 @@ Probably those can give some smaller improvement of performance. Instead a bette
  
 
 ### References
-[1] [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/pdf/1509.02971.pdf) paper (Lillicrap et al)
-[2] [Unity Reacher Environment](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher)
+    [1] [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/pdf/1509.02971.pdf) paper (Lillicrap et al)
+    [2] [Unity Reacher Environment](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher)
