@@ -8,8 +8,8 @@ The DDPG implementation was used to solve the [Reacher](https://github.com/Unity
 ### Learning Algorithm
 DDPG has been implemented in the files, based on the [solution](https://github.com/udacity/deep-reinforcement-learning/blob/55474449a112fa72323f484c4b7a498c8dc84be1/ddpg-bipedal) of the bipedal environment made by [Udacity](https://www.udacity.com) for the [Deep Reinforcement Learning NanoDegree](https://eu.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893):
 
-    - ddpg_agent.py - contains the implementation of the agent and hyperparameters
-    - model.py - Contains the implementation of the Actor and Critic
+    ddpg_agent.py - contains the implementation of the agent and hyperparameters
+    model.py - Contains the implementation of the Actor and Critic
 
 Hyperparameters can be adjusted, by default the following has been used:
 
@@ -46,5 +46,7 @@ Probably those can give some smaller improvement of performance. Instead a bette
  
 
 ### References
-    [1] [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/pdf/1509.02971.pdf) paper (Lillicrap et al)
-    [2] [Unity Reacher Environment](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher)
+
+[1][Continuous Control with Deep Reinforcement Learning](https://arxiv.org/pdf/1509.02971.pdf) paper (Lillicrap et al)
+
+[2][Unity Reacher Environment](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher)
